@@ -1,0 +1,10 @@
+{
+  "api_key": "your_openrouter_api_key_here",
+  "base_url": "https://openrouter.ai/api/v1/responses",
+  "model": "openai/o4-mini:online",
+  "max_output_tokens": 30000,
+  "timeout": 60,
+  "parallel_queries": 3,
+  "tmp_path": "tmp",
+  "similarity_threshold": 0.2
+}
