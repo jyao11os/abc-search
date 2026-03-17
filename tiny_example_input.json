@@ -2,12 +2,12 @@
   {
     "id": "1",
     "type": "Intra-paper",
-    "question": " An article published in 2025 studied the mechanism of the COT method in embodied reasoning and proposed three hypotheses. What was the title of this article?",
+    "question": "An article published in 2025 studied the mechanism of the COT method in embodied reasoning and proposed three hypotheses. What was the title of this article?",
     "modality": "Text",
     "titles": ["Training Strategies for Efficient Embodied Reasoning"],
     "answer": [
       "2505.08243"
     ],
-    "reason": "文中abstract介绍了本文主要工作：对cot提升具身推理能力的机制提出了三种假设"
+    "rationale": "simple reasoning from relevant description in the abstract"
   }
 ]
