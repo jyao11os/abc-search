@@ -74,7 +74,7 @@ export OPENROUTER_API_KEY="your_api_key_here"
     "modality": "text",
     "title": "Training Strategies for Efficient Embodied Reasoning",
     "answer": ["2505.08243"],
-    "reason": "This paper introduces novel training methodologies..."
+    "rationale": "This paper introduces novel training methodologies..."
   }
 ]
 ```
@@ -92,7 +92,7 @@ The output maintains the same structure but adds a `trial_search_correct` field:
     "modality": "text", 
     "title": "Training Strategies for Efficient Embodied Reasoning",
     "answer": ["2505.08243"],
-    "reason": "This paper introduces novel training methodologies...",
+    "rationale": "This paper introduces novel training methodologies...",
     "trial_search_correct": "yes"
   }
 ]
