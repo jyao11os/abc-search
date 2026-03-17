@@ -239,7 +239,7 @@ class LLMVerifier:
                 found_count += 1
                 print(f"Found match for '{expected}': '{best_match}' (distance: {edit_distance})")
         
-        # For multi-item answers, require at least half of the expected answers to be found
+        ## For multi-item answers, require at least half of the expected answers to be found
         #required_matches = max(1, len(expected_answers) // 2) if len(expected_answers) > 1 else 1
         required_matches = len(expected_answers)
         success = found_count >= required_matches

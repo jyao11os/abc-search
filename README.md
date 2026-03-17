@@ -111,7 +111,7 @@ The tool uses an optimized substring edit distance algorithm that:
 - **Finds the best matching substring** in the response text for each expected answer
 - **Uses dynamic programming** with matrix reuse for efficiency
 - **Supports configurable similarity threshold** (default 20% of target length)
-- **Multi-answer items**: Requires at least 50% of expected answers to match
+- **Multi-answer items**: Requires ~~at least 50%~~ all of expected answers to match
 - **Prioritizes titles over arXiv IDs** for verification
 
 ## Examples
